@@ -1,42 +1,15 @@
-# Hello World HTML Project
+# Hello World
+# Overview
+This is a simple Hello World HTML.
 
-## Overview
-
-This is a minimal HTML project that demonstrates the basic structure of a web page. It displays a simple **"Hello World"** message in the browser.
-
-## File Structure
-
-```
-.
-└── index.html
-```
-
-## Code Explanation
-
-* `<!DOCTYPE html>`: Declares the document type and version of HTML.
-* `<html>`: Root element of the HTML document.
-* `<head>`: Contains metadata and the title of the page.
-
-  * `<title>`: Sets the browser tab title to "Hello World".
-  * `<meta>`: Intended to define responsive behavior (though the syntax should be corrected—see note below).
-* `<body>`: Contains the visible content of the webpage.
-
-  * `<h1>`: Displays the main heading "Hello World".
-
-## How to Run
-
-1. Save the file as `index.html`.
-2. Open it in any web browser (Chrome, Firefox, Edge, etc.).
-3. You should see "Hello World" displayed on the page.
-
-## Note
-
-The `<meta>` tag currently has incorrect syntax. For proper responsive design, update it to:
-
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
-
-## License
-
-This project is open-source and free to use for learning purposes.
+# Code Explanation
+<!DOCTYPE html> --> For declearing that this file is HTML while browsers access the file
+<html> --> Starting root tag, where all the codes will be run inside this
+    <head> --> The place where the explanation of the contents, meta tags etc are given. It describes the things 
+                inside the HTML and BODY tags
+        <title>Hello World</title> --> To give title to the page helping SEO. It can be seen in the browser tab
+    </head>
+    <body> --> All the contents are given inside this body tag. All the things the developer build to show will be given here
+        <h1>Hello World</h1> --> Shows a title with bold, large text. 
+    </body>
+</html>
